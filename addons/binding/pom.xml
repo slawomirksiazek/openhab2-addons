@@ -15,7 +15,6 @@
   <packaging>pom</packaging>
 
   <modules>
-    <!--
     <module>org.openhab.binding.airquality</module>
     <module>org.openhab.binding.allplay</module>
     <module>org.openhab.binding.amazondashbutton</module>
@@ -68,9 +67,7 @@
     <module>org.openhab.binding.network.test</module>
     <module>org.openhab.binding.nest</module>
     <module>org.openhab.binding.nest.test</module>
-    -->
     <module>org.openhab.binding.nibeuplink</module>
-    <!--
     <module>org.openhab.binding.nikohomecontrol</module>
     <module>org.openhab.binding.oceanic</module>
     <module>org.openhab.binding.onebusaway</module>
@@ -110,6 +107,5 @@
     <module>org.openhab.binding.yamahareceiver</module>
     <module>org.openhab.binding.zoneminder</module>
     <module>org.openhab.binding.zway</module>
-    -->
   </modules>
 </project>
