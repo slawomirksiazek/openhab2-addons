@@ -59,6 +59,15 @@ public final class VVM320Channels extends BaseChannels {
     public static final Channel CH_48793 = INSTANCE.addChannel(new QuantityChannel("48793", "Room sensor cool factor",
             ChannelGroup.GENERAL, MetricPrefix.DECI(SmartHomeUnits.ONE), "/Manage/1.9.4", "[0123456]*[0-9]"));
 
+    public static final Channel CH_47374 = INSTANCE.addChannel(new QuantityChannel("47374", "Start Temperature Cooling",
+            ChannelGroup.GENERAL, MetricPrefix.DECI(SIUnits.CELSIUS), "/Manage/4.9.2", "[0-9]*[0-9]"));
+    public static final Channel CH_47375 = INSTANCE.addChannel(new QuantityChannel("47375", "Stop Temperature Heating",
+            ChannelGroup.GENERAL, MetricPrefix.DECI(SIUnits.CELSIUS), "/Manage/4.9.2", "[0-9]*[0-9]"));
+    public static final Channel CH_47376 = INSTANCE.addChannel(new QuantityChannel("47376", "Stop Temperature Additive",
+            ChannelGroup.GENERAL, MetricPrefix.DECI(SIUnits.CELSIUS), "/Manage/4.9.2", "[0-9]*[0-9]"));
+    public static final Channel CH_47377 = INSTANCE.addChannel(new QuantityChannel("47377", "Outdoor Filter Time",
+            ChannelGroup.GENERAL, SmartHomeUnits.HOUR, "/Manage/4.9.2", "[0-4]*[0-9]"));
+
     // Compressor
     public static final Channel CH_44362 = INSTANCE.addChannel(new QuantityChannel("44362",
             "EB101-EP14-BT28 Outdoor Temp", ChannelGroup.COMPRESSOR, MetricPrefix.DECI(SIUnits.CELSIUS)));
