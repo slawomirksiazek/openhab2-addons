@@ -324,6 +324,7 @@ public class AggregateDataResponsePublicApi implements DataResponse {
      * @param dividendString
      * @param divisorString
      */
+    @SuppressWarnings("null")
     protected final void assignPercentage(Map<Channel, State> targetMap, Channel channel, State dividendAsState,
             State divisorAsState) {
         double percent = -1;
